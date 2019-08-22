@@ -1,0 +1,13 @@
+<h1>
+  Create a new cocktail
+</h1>
+
+<div class="form">
+  <p>
+    <%= simple_form_for @cocktail do |f|%>
+      <%= f.input :name %>
+      <%= f.submit class: "btn btn-success"%>
+    <% end %>
+  </p>
+</div>
+
