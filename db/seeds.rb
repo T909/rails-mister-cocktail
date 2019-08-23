@@ -6,7 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Ingredient.
 
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
@@ -22,10 +21,10 @@ puts 'Loading new data for Ingredient'
   Ingredient.create(name: name)
 end
 
-puts 'Loading new data for Ingredient'
+puts 'Loading new data for Cocktail'
 some_cocktails = ['Martini', 'Manhattan', 'Bloody Mary', 'Margarita', 'Old Fashioned Cocktail', 'Mojito', 'Daiquiri','Gin and Tonic']
 some_cocktails.each do |cocktail|
   Cocktail.create(name: cocktail)
 end
 
-puts ''
+puts 'Load of data done!'
